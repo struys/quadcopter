@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Quadcopter Client</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+		<link rel="stylesheet" href="./css/reset.css" type="text/css"></link>
+		<link rel="stylesheet" href="./css/main.css" type="text/css"></link>
+	</head>
+	
+	<body>
+		<section class="diagnostics">
+			<textarea class="output" readonly disabled></textarea>
+		</section>
+		
+		<section class="controls">
+			<ul class="horizontal">
+				<li class="forward">Forward</li>
+				<li class="left">Left</li>
+				<li class="right">Right</li>
+				<li class="backward">Backward</li>
+			</ul>
+			
+			
+			<ul class="vertical">
+				<li class="up">Up</li>
+				<li class="down">Down</li>
+			</ul>
+		</section>
+		<script type="application/javascript" src="./js/jquery.1.7.2.js"></script>
+		<script type="application/javascript" src="./js/control.js"></script>
+		<script type="application/javascript" src="./js/init.js"></script>
+	</body>
+</html>
